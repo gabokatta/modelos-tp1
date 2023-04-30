@@ -1,0 +1,162 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: gruner
+ * Creation Date: Apr 30, 2023 at 4:12:47 PM
+ *********************************************/
+ 
+Ganancia = #[
+  "Porteño": 1,
+  "Del Plata": -1,
+  "De Los Andes": 1,
+  "Plural": 1,
+  "Del Norte": -1,
+  "Pampeano": -1,
+  "Cooperativo": 1,
+  "Sol": -1,
+  "República": 1,
+  "Vientos del sur": 1
+]#;
+
+Distancia = #[
+  "Casa central": #[
+	"Porteño": 100,
+	"Del Plata": 100,
+	"De Los Andes": 100,
+	"Plural": 100,
+	"Del Norte": 100,
+	"Pampeano": 100,
+	"Cooperativo": 100,
+	"Sol": 100,
+	"República": 100,
+	"Vientos del sur": 100
+  ]#,
+
+  "Porteño": #[
+    "Casa central": 100,
+	"Del Plata": 100,
+	"De Los Andes": 100,
+	"Plural": 100,
+	"Del Norte": 100,
+	"Pampeano": 100,
+	"Cooperativo": 100,
+	"Sol": 100,
+	"República": 100,
+	"Vientos del sur": 100
+  ]#,
+
+  "Del Plata": #[
+	"Porteño": 100,
+	"De Los Andes": 100,
+	"Plural": 100,
+	"Del Norte": 100,
+	"Pampeano": 100,
+	"Cooperativo": 100,
+	"Sol": 100,
+	"República": 100,
+	"Vientos del sur": 100
+  ]#,
+
+  "De Los Andes": #[
+	"Casa central": 100,
+	"Porteño": 100,
+	"Del Plata": 100,
+	"Plural":100,
+	"Del Norte": 100,
+	"Pampeano": 100,
+	"Cooperativo": 100,
+	"Sol": 100,
+	"República": 100,
+	"Vientos del sur": 100,
+  ]#,
+
+  "Plural": #[
+	"Casa central": 100,
+	"Porteño": 100,
+	"Del Plata": 100,
+	"De Los Andes": 100,
+	"Del Norte": 100,
+	"Pampeano": 100,
+	"Cooperativo": 100,
+	"Sol": 100,
+	"República": 100,
+	"Vientos del sur": 100,
+  ]#,
+
+  "Del Norte": #[
+  	"Casa central": 100,
+	"Porteño": 100,
+	"Del Plata": 100,
+	"De Los Andes": 100,
+	"Plural":100,
+	"Pampeano": 100,
+	"Cooperativo": 100,
+	"Sol": 100,
+	"República": 100,
+	"Vientos del sur": 100,
+  ]#,
+
+  "Pampeano": #[
+  	"Casa central": 100,
+	"Porteño": 100,
+	"Del Plata": 100,
+	"De Los Andes": 100,
+	"Plural":100,
+	"Del Norte": 100,
+	"Cooperativo": 100,
+	"Sol": 100,
+	"República": 100,
+	"Vientos del sur": 100,
+  ]#,
+
+  "Cooperativo": #[
+  	"Casa central": 100,
+	"Porteño": 100,
+	"Del Plata": 100,
+	"De Los Andes": 100,
+	"Plural":100,
+	"Del Norte": 100,
+	"Pampeano": 100,
+	"Sol": 100,
+	"República": 100,
+	"Vientos del sur": 100,
+  ]#,
+
+  "Sol": #[
+  	"Casa central": 100,
+	"Porteño": 100,
+	"Del Plata": 100,
+	"De Los Andes": 100,
+	"Plural":100,
+	"Del Norte": 100,
+	"Pampeano": 100,
+	"Cooperativo": 100,
+	"República": 100,
+	"Vientos del sur": 100,
+  ]#,
+
+  "República": #[
+  	"Casa central": 100,
+	"Porteño": 100,
+	"Del Plata": 100,
+	"De Los Andes": 100,
+	"Plural":100,
+	"Del Norte": 100,
+	"Pampeano": 100,
+	"Cooperativo": 100,
+	"Sol": 100,
+	"Vientos del sur": 100,
+  ]#,
+
+  "Vientos del sur": #[
+  	"Casa central": 100,
+	"Porteño": 100,
+	"Del Plata": 100,
+	"De Los Andes": 100,
+	"Plural":100,
+	"Del Norte": 100,
+	"Pampeano": 100,
+	"Cooperativo": 100,
+	"Sol": 100,
+	"República": 100,
+  ]#,
+]#;
