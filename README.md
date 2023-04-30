@@ -1,5 +1,7 @@
 # Trabajo Práctico Modelos y Optimización 1 [71.14]
 
+## Si alguno sabe como cargar un archivo como dato para el modelo x favor lo haga
+
 1 – ENUNCIADO
 Parte I: Análisis y aproximación al problema
 
