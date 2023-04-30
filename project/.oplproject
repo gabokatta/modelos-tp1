@@ -16,10 +16,10 @@
         		
         <config default="false" name="ejercicio2_1er_forma" category="opl">
             			
-            <ref name="ejercicio2/1er_forma.mod" type="model">
+            <ref name="datos.dat" type="data">
 			</ref>
             			
-            <ref name="datos.dat" type="data">
+            <ref name="ejercicio2/1er_forma.mod" type="model">
 			</ref>
             		
         </config>
