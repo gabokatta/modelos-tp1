@@ -1,5 +1,40 @@
 # Trabajo Práctico Modelos y Optimización 1 [71.14]
 
+1 – ENUNCIADO
+Parte I: Análisis y aproximación al problema
+
+La famosa empresa “Dinero Seguro” se dedica al transporte de caudales y ha decidido contratarte ya que necesita de tu ingenio para resolver su problema. 
+
+En esta oportunidad tiene la misión de asegurarse que uno de sus camiones cumpla su recorrido por los bancos de forma exitosa. Dicho camión debe salir de una de las sedes de la empresa, pasar por 10 bancos y retornar a esa misma sede. Por razones de seguridad, el camión no podrá detenerse en ningún otro lugar alternativo.
+
+Se sabe que en algunos bancos recaudará dinero de los cajeros (+$) y en otros, dejará (-$). Por cierto, los montos ya están preestablecidos y se indican a continuación:
+
+Banco Porteño
++$A
+Banco Del Plata
+-$B
+Banco De Los Andes
++$C
+Banco Plural
++$D
+Banco Del Norte
+-$E
+Banco Pampeano
+-$F
+Banco Cooperativo
++$G
+Banco Sol
+-$H
+Banco República
++$I
+Banco Vientos del Sur
++$J
+
+
+Asimismo, el camión tiene espacio para transportar hasta $MAX_DINERO y debe asegurarse de tener dinero disponible para dejar en el caso en que le toque un banco con esa necesidad.
+Las distancias entre dos bancos cualesquiera (medidas en kilómetros) son datos fijos. También lo es la distancia entre la sede de la empresa y cada banco.
+
+
 
 A partir del problema presentado en la Parte I, se pide:
 
