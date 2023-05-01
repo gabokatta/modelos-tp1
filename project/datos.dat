@@ -1,6 +1,6 @@
 /*********************************************
  * OPL 22.1.1.0 Data
- * Author: gruner
+ * Author: GRUPO 2
  * Creation Date: Apr 30, 2023 at 4:12:47 PM
  *********************************************/
  
@@ -45,6 +45,9 @@ Ganancia = #[
 	"República": I,
 	"Vientos del sur": J
 ]#;
+
+
+int d_0[i in 1..10] = 10 + rand(90);
 
 
 Distancia = #[
