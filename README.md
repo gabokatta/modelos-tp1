@@ -1,7 +1,5 @@
 # Trabajo Práctico Modelos y Optimización 1 [71.14]
 
-## Si alguno sabe como cargar un archivo como dato para el modelo x favor lo haga
-
 1 – ENUNCIADO
 Parte I: Análisis y aproximación al problema
 
@@ -11,29 +9,20 @@ En esta oportunidad tiene la misión de asegurarse que uno de sus camiones cumpl
 
 Se sabe que en algunos bancos recaudará dinero de los cajeros (+$) y en otros, dejará (-$). Por cierto, los montos ya están preestablecidos y se indican a continuación:
 
-Banco Porteño
-+$A
-Banco Del Plata
--$B
-Banco De Los Andes
-+$C
-Banco Plural
-+$D
-Banco Del Norte
--$E
-Banco Pampeano
--$F
-Banco Cooperativo
-+$G
-Banco Sol
--$H
-Banco República
-+$I
-Banco Vientos del Sur
-+$J
+| Banco                   | Parámetro |
+| :---------------------- | :-------: |
+| _Banco Porteño_         |   _+$A_   |
+| _Banco Del Plata_       |   _-$B_   |
+| _Banco De Los Andes_    |   _+$C_   |
+| _Banco Plural_          |   _+$D_   |
+| _Banco Del Norte_       |   _-$E_   |
+| _Banco Pampeano_        |   _-$F_   |
+| _Banco Cooperativo_     |   _+$G_   |
+| _Banco Sol_             |   _-$H_   |
+| _Banco República_       |   _+$I_   |
+| _Banco Vientos del Sur_ |   _+$J_   |
 
-
-Asimismo, el camión tiene espacio para transportar hasta $MAX_DINERO y debe asegurarse de tener dinero disponible para dejar en el caso en que le toque un banco con esa necesidad.
+Asimismo, el camión tiene espacio para transportar hasta `$MAX_DINERO` y debe asegurarse de tener dinero disponible para dejar en el caso en que le toque un banco con esa necesidad.
 Las distancias entre dos bancos cualesquiera (medidas en kilómetros) son datos fijos. También lo es la distancia entre la sede de la empresa y cada banco.
 
 
