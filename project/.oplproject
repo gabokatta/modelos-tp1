@@ -9,7 +9,7 @@
             <ref name="ejercicio1/modelo.mod" type="model">
 			</ref>
             			
-            <ref name="datos.dat" type="data">
+            <ref name="csv_data.dat" type="data">
 			</ref>
             		
         </config>

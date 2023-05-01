@@ -1,0 +1,15 @@
+/*******************************
+ * Lectura de datos desde csv
+ *******************************/
+
+Capacidad = 60;
+
+// Cargamos los datos del archivo 'ganancias.csv'
+CSVConnection csv_ganancias("ganancias.csv", "");
+
+Ganancia from CSVRead(csv_ganancias, "");
+
+// Cargamos los datos del archivo 'distancias.csv'
+CSVConnection csv_distancias("distancias.csv", "");
+
+Distancia from CSVRead(csv_distancias, "");
