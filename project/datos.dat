@@ -4,18 +4,48 @@
  * Creation Date: Apr 30, 2023 at 4:12:47 PM
  *********************************************/
  
+ /*
++$A
+-$B
++$C
++$D
+-$E
+-$F
++$G
+-$H
++$I
++$J
+*/
+ 
+ 
+int A = 20;
+int B = 30;
+int C = 40;
+int D = 15;
+int E = 20;
+int F = 25;
+int G = 10;
+int H = 40;
+int I = 20;
+int J = 5;
+
+int MAX_DINERO = 60;
+
+// Ganancia va a ser Capital
 Ganancia = #[
-  "Porteño": 1,
-  "Del Plata": -1,
-  "De Los Andes": 1,
-  "Plural": 1,
-  "Del Norte": -1,
-  "Pampeano": -1,
-  "Cooperativo": 1,
-  "Sol": -1,
-  "República": 1,
-  "Vientos del sur": 1
+	"0" : 0,
+	"Porteño": A,
+	"Del Plata": -B,
+	"De Los Andes": C,
+	"Plural": D,
+	"Del Norte": -E,
+	"Pampeano": -F,
+	"Cooperativo": G,
+	"Sol": -H,
+	"República": I,
+	"Vientos del sur": J
 ]#;
+
 
 Distancia = #[
   "Casa central": #[
