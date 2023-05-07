@@ -84,9 +84,12 @@ subject to {
           U[i] - U[j] + N * Y[i][j] <= N - 1;
 
   // Definición de las variables YU
-  forall (b in Bancos)
+  forall (b in Bancos) {
     indicador_de_orden:
       sum (o in 1..N) (o * YU[b][o]) == U[b];
+    solo_un_YU_por_banco:
+      sum (o in 1..N) (YU[b][o]) == 1;
+  }      
 
   // Definición de las variables DeltaCajaPos/Neg
   forall (o in 1..N)
