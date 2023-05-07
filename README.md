@@ -43,3 +43,6 @@ A partir del problema presentado en la Parte I, se pide:
 
 5.  Comparación de resultados entre modelos y heurísticas. Comparación con bibliografía estudiada. Conclusión. 
 **Entrega: 12/06**
+
+Google Colab Actualizado:
+https://colab.research.google.com/drive/1x70fOJMTesxFczDYnkrctvkvbi7QXsaH?usp=sharing
