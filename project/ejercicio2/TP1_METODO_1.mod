@@ -82,10 +82,14 @@ subject to {
           U[i] - U[j] + N * Y[i][j] <= N - 1;
 
   // El dinero en cada paso es igual a una variable
-  // (mayor o igual a 0 por c.n.n.)
-  forall (i in Bancos)
+  // (mayor o igual a 0 por c.n.n.), que no supera
+  // la capacidad
+  forall (i in Bancos) {
     dinero_cada_paso:
       sum (j in Bancos diff {i}) (Ganancia[j] * X[j][i]) + Ganancia[i] == C[i];
+    no_supera_capacidad:
+      C[i] <= Capacidad;
+  }
 
   // Definición de las X
   forall (i in Bancos)

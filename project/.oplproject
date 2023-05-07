@@ -16,30 +16,10 @@
         		
         <config default="false" name="ejercicio2_1er_forma" category="opl">
             			
-            <ref name="ejercicio2/1er_forma.mod" type="model">
-			</ref>
-            			
             <ref name="csv_data.dat" type="data">
 			</ref>
-            		
-        </config>
-        		
-        <config default="false" name="ejercicio2_2da_forma" category="opl">
             			
-            <ref name="ejercicio2/2da_forma.mod" type="model">
-			</ref>
-            			
-            <ref name="datos.dat" type="data">
-			</ref>
-            		
-        </config>
-        		
-        <config default="false" name="ejercicio2_3er_forma" category="opl">
-            			
-            <ref name="ejercicio2/3er_forma.mod" type="model">
-			</ref>
-            			
-            <ref name="datos.dat" type="data">
+            <ref name="ejercicio2/TP1_METODO_1.mod" type="model">
 			</ref>
             		
         </config>
