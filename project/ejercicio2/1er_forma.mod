@@ -45,16 +45,11 @@ dvar boolean Y[Nodos][Nodos];
 // El número de orden en que se visita cada banco
 dvar float+ U[Bancos];
 
-// YU[b][o] == 1 si U[b] == o, sino 0
-dvar boolean YU[Bancos][1..N];
+// Representa la cantidad de dinero al salir del banco
+dvar float+ C[Bancos];
 
-// Representa el aumento de dinero en el camión
-// al llegar al destino de orden i
-dvar float+ DeltaCajaPos[1..N];
-
-// Representa la disminución de dinero en el camión
-// al llegar al destino de orden i
-dvar float+ DeltaCajaNeg[1..N];
+// X[i][j] == 1 si U[i] < U[j], sino 0
+dvar boolean X[Bancos][Bancos];
 
 // ----- Funcional -----
 
@@ -85,24 +80,16 @@ subject to {
     forall (j in Bancos) if (i != j)
       orden:
           U[i] - U[j] + N * Y[i][j] <= N - 1;
-  
-  // -------------------------------
-  // TODO: modificar restricciones
-  // -------------------------------
 
-  // Definición de las variables YU
-  forall (b in Bancos)
-    indicador_de_orden:
-      sum (o in 1..N) (o * YU[b][o]) == U[b];
+  // El dinero en cada paso es igual a una variable
+  // (mayor o igual a 0 por c.n.n.)
+  forall (i in Bancos)
+    dinero_cada_paso:
+      sum (j in Bancos diff {i}) (Ganancia[j] * X[j][i]) + Ganancia[i] == C[i];
 
-  // Definición de las variables DeltaCajaPos/Neg
-  forall (o in 1..N)
-    delta_caja:
-      sum (b in Bancos) (Ganancia[b] * YU[b][o]) == DeltaCajaPos[o] - DeltaCajaNeg[o];
-
-  // En cada paso la cantidad de dinero en el camión
-  // no es negativa ni mayor a la capacidad
-  forall (o in 1..N)
-    total_caja:
-      0 <= sum (i in 1..o) (DeltaCajaPos[i] - DeltaCajaNeg[i]) <= Capacidad;
+  // Definición de las X
+  forall (i in Bancos)
+    forall (j in Bancos) if (i != j)
+      i_antes_de_j:
+        U[i] <= U[j] + N * X[j][i]; // N == M
 }
