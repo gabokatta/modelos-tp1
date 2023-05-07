@@ -44,5 +44,6 @@ A partir del problema presentado en la Parte I, se pide:
 5.  Comparación de resultados entre modelos y heurísticas. Comparación con bibliografía estudiada. Conclusión. 
 **Entrega: 12/06**
 
-Google Colab Actualizado:
-https://colab.research.google.com/drive/1x70fOJMTesxFczDYnkrctvkvbi7QXsaH?usp=sharing
+Google Colabs de los ejercicios:
+MÉTODO 2: https://colab.research.google.com/drive/1gui2CkmYT-nzkIaJLjXDN7S50oHtQgdi?usp=sharing
+MÉTODO 3: https://colab.research.google.com/drive/1x70fOJMTesxFczDYnkrctvkvbi7QXsaH?usp=sharing
