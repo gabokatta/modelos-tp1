@@ -93,7 +93,10 @@ subject to {
 
   // Definición de las X
   forall (i in Bancos)
-    forall (j in Bancos) if (i != j)
+    forall (j in Bancos) if (i != j) {
       i_antes_de_j:
         U[i] <= U[j] + N * X[j][i]; // N == M
+      solo_uno_antes:
+        X[i][j] + X[j][i] == 1;
+    }      
 }
