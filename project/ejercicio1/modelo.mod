@@ -56,8 +56,8 @@ dvar float+ DeltaCajaNeg[1..N];
 // ----- Funcional -----
 
 minimize
-  sum (i in Bancos) (
-    sum (j in Bancos) (
+  sum (i in Nodos) (
+    sum (j in (Nodos diff {i})) (
       Y[i][j] * Distancia[i][j]
     )
   );
